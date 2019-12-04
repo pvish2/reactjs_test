@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.parentDiv{
+  padding: 20px;
+}
+
+.addDiv{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.existingDiv{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.input[type=text] {
+  width: 80%;
+  padding: 6px 8px;
+  margin: 10px 5px;
+  box-sizing: border-box;  
+  border: 1px solid #000000;
+  border-radius: 0px;  
+}
+
+
+.errorDiv{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color:red;
+}
+
+.StandardTable {
+  border: 1px solid #656565;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: 15px;
+  border-spacing: 0;
+}
+.StandardTable thead {
+  border: 1px solid #dddddd;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 5px;
+  background-color: lightgray;
+  text-align: center;
+  width : "100%";
+
+}
+.StandardTable thead th{
+  border: 1px solid #dddddd;
+  background: lightgray; 
+  text-align: center;
+  width : "25%";
+  padding: 10px;
+}
+.StandardTable tbody {
+  border: 1px solid #dddddd;
+}
+.StandardTable tbody tr{
+  border: 1px solid #dddddd;
+  text-align: center;
+  width : "100%";
+  padding: 10px;
+
+}
+.StandardTable tbody td{
+  border: 1px solid #dddddd;
+  text-align: center;
+  width : "25%";
+  padding: 10px;
+
+}
+
+.StandardTable thead th:first-of-type{
+  border-top-left-radius: 0px; 
+}
+
+.StandardTable thead th:last-of-type{
+  border-top-right-radius: 0px; 
+}

@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render my app 1`] = `
+Array [
+  <div
+    class="parentDiv"
+  >
+    <h2>
+      Credit Card System
+    </h2>
+    <h4
+      class="addDiv"
+    >
+       Add
+    </h4>
+    <div>
+      <form
+        id="form1"
+        onSubmit={[Function]}
+      >
+        <div
+          class="form-group"
+        >
+          <label
+            for="name"
+          >
+            Name
+          </label>
+          <input
+            class="form-control"
+            id="name"
+            required={true}
+            type="text"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <label
+            for="cardNumber"
+          >
+            Card Number
+          </label>
+          <input
+            class="form-control"
+            id="cardNumber"
+            required={true}
+            type="number"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <label
+            for="limit"
+          >
+            Limit
+          </label>
+          <input
+            class="form-control"
+            id="limit"
+            required={true}
+            type="number"
+          />
+        </div>
+        <button
+          class="btn btn-dark"
+          type="submit"
+        >
+          Add
+        </button>
+      </form>
+    </div>
+    <div />
+    <h4
+      class="existingDiv"
+    >
+      Existing Cards
+    </h4>
+    <Cards
+      cards={Array []}
+    />
+  </div>,
+]
+`;
